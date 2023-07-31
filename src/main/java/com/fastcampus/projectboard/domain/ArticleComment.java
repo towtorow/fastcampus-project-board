@@ -6,8 +6,6 @@ public class ArticleComment {
     private Long id;
     private Article article; // 게시글 (ID)
     private String content; // 본문
-    private String title;
-    private String hashtag;
     private LocalDateTime createdAt;
     private String createdBy;
     private LocalDateTime modifiedAt;
